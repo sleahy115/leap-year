@@ -1,4 +1,4 @@
-// business logic
+
 var leapYear = function(year) {
   if ((year % 4 === 0) && (year % 100 !== 0) || (year % 400 === 0)) {
     return true;
@@ -7,7 +7,6 @@ var leapYear = function(year) {
   }
 };
 
-// user interface logic
 $(document).ready(function() {
   $("form#leap-year").submit(function(event) {
     event.preventDefault();
@@ -16,7 +15,7 @@ $(document).ready(function() {
 
     $(".year").text(year);
 
-    if (!result) {                 // same as writing if (result === false)
+    if (!result) {
       $(".not").text("not");
     } else {
       $(".not").text("");

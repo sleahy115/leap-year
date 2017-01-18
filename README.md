@@ -8,6 +8,9 @@
 
 _This program will take input from a user and return weather it is a leap year or not. It is a demonstration of behavior driven development and the separation of back end and front end logic._
 
+## Specifications
+_If the year entered is divisible by four or by 400 it is a leap year. If the year is divisible by 100 it is not a leap year._
+
 ## Setup/Installation Requirements
 
 * _clone the leap-year repository from git hub _
